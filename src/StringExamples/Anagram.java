@@ -4,9 +4,9 @@ import java.util.Arrays;
 
 public class Anagram {
 
-	public static void CheckAnagram(String s1, String s2)
+	public static void CheckAnagram(String s21, String s2)
 	{
-		String str1 = s1.replaceAll("\\s", "");
+		String str1 = s21.replaceAll("\\s", "");
 		String str2 = s2.replaceAll("\\s", "");
 		
 		boolean status= true;
@@ -26,7 +26,7 @@ public class Anagram {
 		}
 		if(status)
 		{
-			System.out.println(s1+ " and " +s2 + " are anagrams.");
+			System.out.println(s21+ " and " +s2 + " are anagrams.");
 		}
 			
 	}
